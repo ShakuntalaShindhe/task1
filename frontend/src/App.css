@@ -1,0 +1,150 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.HomePage{
+  /* border: 2px solid #333; */
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height:auto;
+  width: auto;
+ }
+
+  table{
+    margin-top: 20px;
+  }
+
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+
+tbody tr td button{
+  border: none;
+  background-color: #ff4d4d;
+  /* background-color: rgba(233, 42, 42, 0.902); */
+  color: #fff;
+  font-size:10px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+tbody tr td button:hover{
+  background-color:#e60000;
+  border: none;
+}
+
+ .edit{
+  border: none;
+  border-radius: 10px;
+  background-color: #4681f4;
+  color: #fff;
+  font-size:10px;
+  margin-right: 20px;
+  padding: 10px 20px;
+}
+.edit:hover{
+  color: #fff;
+  background-color: #063799;
+}
+.HomePage .add{
+  margin-right: auto;
+  padding: 10px 15px;
+  background-color: #4681f4;
+  border-radius: 10px;
+  color: #fff;
+}
+.addItems form{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 2px solid grey; */
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+form div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+form label{
+  color: #063799;
+  font-size: 1rem;
+  font-weight: 500;
+}
+form h3{
+ color: #063799;
+  margin-bottom: 40px;
+  font-size: 1.5rem
+
+}
+input{
+  width: 60%;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border:2px solid rgb(165, 169, 169);
+}
+textarea{
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border:2px solid rgb(165, 169, 169);
+}
+form button{
+  border: none;
+  border-radius: 10px;
+  background-color: #4681f4;
+  color: #fff;
+  font-size:15px;
+  padding: 12px 22px;
+}
+.EditItems{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
