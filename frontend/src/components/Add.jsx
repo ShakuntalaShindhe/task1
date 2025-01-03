@@ -30,7 +30,7 @@ const Add = () => {
         <label>Description:</label>
         <input type='text' value={description} onChange={(e)=>setDescription(e.target.value)} />
       </div>
-     <button type='submit'>Add Books</button>
+     <button type='submit'>Add product</button>
      </form>
     </div>
  

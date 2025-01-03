@@ -46,7 +46,7 @@ const Edit = () => {
         <label>Description:</label>
         <input type='date' value={description} onChange={(e)=>setDescription(e.target.value)} />
       </div>
-     <button type='submit'>Add Books</button>
+     <button type='submit'>Add Back</button>
      </form>
     </div>
   )
