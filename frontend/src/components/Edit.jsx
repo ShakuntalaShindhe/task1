@@ -12,7 +12,7 @@ const Edit = () => {
   useEffect(()=>{
    const fetchData=async()=>{
       try{
-        const resp=await axios.get(`http://localhost:6060/api/products/${id}`)
+        const resp=await axios.get(`https://task1-ib8s.onrender.com/api/products/${id}`)
         const{name,description}=resp.data;
          setName(name),
          setDescription(description)
@@ -27,7 +27,7 @@ const Edit = () => {
  const handleSubmit=async(e)=>{
   e.preventDefault()
   try{
-    await axios.put(`http://localhost:6060/api/products/${id}`,{name,price,description});
+    await axios.put(`https://task1-ib8s.onrender.com/api/products/${id}`,{name,price,description});
     navigate('/')
   }catch(error){
     console.log("Error in Editing the books",error)

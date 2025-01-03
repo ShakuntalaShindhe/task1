@@ -12,7 +12,7 @@ const Add = () => {
     const handleSubmit= async(e)=>{
         e.preventDefault()
         try{
-            await axios.post(`http://localhost:6060/api/products`,{name,price,description})
+            await axios.post(`https://task1-ib8s.onrender.com/api/products`,{name,price,description})
             navigate('/')
         }catch(err){
             console.log("Error in Adding the Books",err)
